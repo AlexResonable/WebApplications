@@ -1,0 +1,134 @@
+#lotoja{width: 464px; height: 79px;}
+h3, p{color: #FFFFFF;}
+
+span{
+    color:#FF3030;
+    font-weight: bold;
+}
+
+div.wrapper{
+    margin: auto auto;
+    width: 960px;
+}
+
+div.headerWrapper{
+    text-align: center;
+    background-color: #000000;
+    width: 960px;
+}
+
+div.formWrapper{
+    margin: 0;
+    padding: 0;
+    width: 960px;
+}
+
+div.tableWrapper{
+    margin: auto auto;
+    background-color: #E7002D;
+    width: 960px;
+}
+
+p.oSpeed{
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: none;
+    font-size: 300%;
+    font-variant: small-caps;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width:960px;
+    text-align: right;
+    background-color: #3393D8;
+    border-collapse: collapse;
+    color: #FFFFFF;
+}
+
+td,th{
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+caption{
+    background-color: #3393D8;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+input.nameTextbox{
+    width: 250px;
+}
+
+p.input{
+    margin: 0;
+    padding: 0;
+}
+
+input.textbox{
+    width: 90px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+input.submit{
+    font-weight: bold;
+    width: 90px;
+}
+
+body{
+    background-image:  url('images/lotojaLogo.png');
+    background-repeat: repeat;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: #000000;
+}
+
+form{
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: none;
+    border-color: #FFFFFF;    
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    background-color: #FACD29;
+}
+
+fieldset{
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+    text-indent: 0;
+    width: 700px;
+}
+
+legend{
+    font-size: 18px;
+}
+
+label.field{
+    width: 100px;
+    color: #000000;
+    font-weight: bold;
+}
+
+div.infoWrapper{
+    width:960px;
+    text-align: left;
+    text-indent: 105px;
+}

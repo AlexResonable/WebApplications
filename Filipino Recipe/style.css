@@ -1,0 +1,91 @@
+﻿#mainBanner{text-indent: -55px; font-size: 300%; margin:0; padding:0;}
+#subBanner{text-indent: 55px; margin:0; padding:0;}
+#filipinoDishes{width: 960px; height: 70px;}
+#underConst{width: 960px; height: 268px;}
+#philFlag{width: 960px; height: 155px;}
+
+div.bannerWrapper{
+margin: 0 auto;
+display: block;
+text-align: left;
+width: 960px;
+background: #74A42A;
+}
+
+div.banner{
+background-image: url('images/logo.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100px 100px;
+position: relative;
+text-align: center;
+width: 960px;
+height: 100px;
+}
+
+div.wrapper{
+margin: 0 auto;
+display: block;
+text-align: left;
+width: 960px;
+background: #74A42A;
+}
+
+ul.navigation{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+text-align:left;
+}
+
+p, li, h2, h3{
+font-size:120%;
+font-family:Arial,Helvetica,sans-serif;
+color:#FFFFFF;
+}
+
+p.paragraph{
+text-indent: 50px;
+text-align: justify;
+}
+
+body{
+margin: 0px;
+position: relative;
+background: #74A42A;
+background-image: url('images/bamboo.jpg'), url('images/bamboo.jpg');
+background-attachment:fixed;
+background-repeat: repeat-y, repeat-y;
+background-position: left, right;
+}
+
+table{background: #466B0E;}
+
+td{
+border-style: solid;
+border-width: 1px;
+border-collapse: separate;
+font-size:120%;
+font-family:Arial,Helvetica,sans-serif;
+color:#FFFFFF;
+}
+
+th{
+border-style: solid;
+border-width: 1px;
+border-collapse: separate;
+border-color: #FFFFFF;
+font-size:120%;
+font-family:Arial,Helvetica,sans-serif;
+background: #FFFFFF;
+color:#74A42A;
+}
+
+/*nav button*/
+li.navigation{float:left; width: 100px; color: #FFFFFF;}
+li.navigation a:link{text-decoration: none; color: #FFFFFF;}
+li.navigation a:visited{text-decoration: none; color: #FFFFFF;}
+li.navigation a:active{text-decoration: none; color: #FFFFFF;}
+/*hover*/
+li.navigation  a:hover {color: #95265A;}
